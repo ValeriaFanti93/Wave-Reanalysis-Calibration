@@ -16,7 +16,7 @@ topLevelFolder = 'FOLDER_CONTAINING_DATA';
 cd(topLevelFolder);
 addpath(strcat(topLevelFolder,'/Functions'));
 PlotsFolder = strcat(topLevelFolder,'/Plots');
-file_name = 'Data_Faro_Buoy_WAVERYS_ERA5_1993_2019.mat';
+file_name = 'Data_GL_TS_MO_42035_Buoy_WAVERYS_ERA5_1993_2020.mat';
 file_data = dir(file_name);
 load(file_data.name);
 Var_Na = ["Hs","Tm","Tp","Dir"];
