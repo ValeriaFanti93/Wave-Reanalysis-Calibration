@@ -5,7 +5,7 @@ clc, clear, close all
 topLevelFolder = 'FOLDER_CONTAINING_DATA';
 cd(topLevelFolder);
 addpath(strcat(topLevelFolder,'/Functions'));
-load('Data_Faro_Buoy_WAVERYS_ERA5_1993_2019.mat');
+load('Data_GL_TS_MO_42035_WAVERYS_ERA5_1993_2020.mat');
 Var_Na = ["Hs","Tm"];
 Var_Un = ["m","s"];
 Model = string({'WAVERYS';'ERA5'});
