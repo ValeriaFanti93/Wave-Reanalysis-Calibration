@@ -6,3 +6,4 @@ To run in MATLAB, set this folder to your root directory, add the Functions fold
 Originally ran in MATLAB version R2021a installed on macOS Monterey version 12.3. Typically takes ~1-2min to output all the figures to run. All figures will be written in the 'Plots' folder.
 
 When applied to a different buoy data the 'ChooseFit' and 'dir' parameters need to be changed accordingly by a visual inspection of the plots from the user.
+Wave buoy data were retrieved from the “INSITU_GLO_WAVE_REP_OBSERVATIONS_013_045” dataset distributed by CMEMS (https://doi.org/10.17882/70345) and refer to buoy 'GL_TS_MO_42035' in Galveston, TX (USA).
